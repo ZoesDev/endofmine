@@ -2,15 +2,15 @@
   .container
     a.navbar-brand(href='/')
       i.fas.fa-cube
-      | Project name
+      | End Of Mine
     button.navbar-toggler(type='button', data-toggle='collapse', data-target='.navbar-collapse')
       span.sr-only Toggle navigation
       span.navbar-toggler-icon
     .collapse.navbar-collapse
       ul.nav.navbar-nav
-        li.nav-item(class=(title === 'Home') ? 'active' : undefined)
-          a.nav-link(href='/') Home
         li.nav-item(class=(title === 'Status') ? 'active' : undefined)
           a.nav-link(href='/status') Status
+        li.nav-item(class=(title === 'Pixelmon') ? 'active' : undefined)
+          a.nav-link(href='/pixelmon') Pixelmon
         li.nav-item(class=(title === 'Whitelist') ? 'active' : undefined)
           a.nav-link(href='/whitelist') Whitelist
