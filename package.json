@@ -1,0 +1,61 @@
+{
+  "name": "endofmine",
+  "version": "0.0.1",
+  "description": "ducktape",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm rebuild node-sass",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crazyonerob/endofmine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crazyonerob/endofmine/issues"
+  },
+  "homepage": "https://github.com/crazyonerob/endofmine#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2",
+    "@ladjs/bootstrap-social": "^7.0.2",
+    "async": "^2.6.2",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.3.1",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "chalk": "^2.4.2",
+    "cheerio": "^1.0.0-rc.2",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^6.2.0",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.4",
+    "express-flash": "0.0.2",
+    "express-session": "^1.15.6",
+    "express-status-monitor": "^1.2.3",
+    "express-validator": "^5.3.1",
+    "fs": "0.0.1-security",
+    "jquery": "^3.3.1",
+    "lob": "^6.0.5",
+    "lodash": "^4.17.11",
+    "lusca": "^1.6.1",
+    "mocha": "^6.0.2",
+    "mongoose": "^5.4.19",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "node-sass": "^4.11.0",
+    "node-sass-middleware": "^0.11.0",
+    "nodemon": "^1.18.10",
+    "popper": "^1.0.1",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
+    "request": "^2.88.0",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2",
+    "validator": "^10.11.0"
+  }
+}

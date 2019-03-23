@@ -1,0 +1,7 @@
+[{
+  "script"    : "index.js",
+  "name"      : "endofmine",
+  "exec_mode" : "forked",
+  "instances" : 1
+}
+]

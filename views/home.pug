@@ -1,0 +1,19 @@
+extends layout
+
+block content
+    .container
+      .logo
+        img(src='img/logo.png', alt='End Of Mine logo')
+      .items
+        .card
+          .card-header
+            a(data-toggle='collapse', href='#pixelmon', aria-expanded='false', aria-controls='pixelmon')
+              | Connect Pixelmon Pack
+          #pixelmon.card-block
+            | pixelmon
+        .card
+          .card-header
+            a(data-toggle='collapse', href='#AllTheMods', aria-expanded='true', aria-controls='AllTheMods')
+              | Connect All the mods
+          #AllTheMods.card-block
+            | AllTheMods
