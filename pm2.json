@@ -1,7 +1,7 @@
 [{
   "script"    : "index.js",
   "name"      : "endofmine",
-  "exec_mode" : "forked",
+  "exec_mode" : "fork_mode",
   "instances" : 1
 }
 ]
