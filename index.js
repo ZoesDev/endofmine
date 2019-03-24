@@ -87,26 +87,7 @@ app.get('/', homeController.index);
 app.get('/pixelmon', pixelmonController.index);
 //whitelist get and post
 app.get('/whitelist', whitelistController.index);
-// app.post("/whitelist", (req, res) => {
-//   var item = new Item(req.body);
-//   item
-//     .save(
-//       new Item({
-//         user        : req.user,
-//         itemName    : req.body.itemName,
-//         itemType    : req.body.itemType,
-//         itemDesc    : req.body.itemDesc,
-//         itemPic     : req.body.itemPic
-//       })
-//     )
-//     .then(item => {
-//       res.render('/', { user : req.user });
-//       /* i used res.redirect and { item : items } but it lead me to an error when i tried posting a second test item */
-//     })
-//     .catch(err => {
-//       res.render('add', { user : req.user, error : req.flash('error')});
-//     });
-// });
+
 
 
 

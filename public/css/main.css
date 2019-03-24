@@ -12728,7 +12728,7 @@ readers do not read off random characters that represent icons */
   box-shadow: none; }
 
 .btn-raised, .btn-raised:focus, .btn-raised:active, .btn-raised:hover {
-  color: #333333;
+  color: #ffffff;
   background-image: linear-gradient(to bottom, #ffffff 60%, #f8f8f8 100%);
   border-color: #cccccc; }
 
@@ -12762,14 +12762,14 @@ readers do not read off random characters that represent icons */
     padding-bottom: 15px; }
   .navbar-light .navbar-toggler {
     border-bottom-color: #dddddd;
-    color: #333333; }
+    color: #ffffff; }
   .navbar-light .navbar-toggler:focus {
     background: #dddddd; }
   .navbar-light .navbar-toggler:hover {
     background: #dddddd; }
 
 .navbar-toggler-icon {
-  color: #333333; }
+  color: #ffffff; }
 
 .dropdown-item > a {
   color: black;
@@ -12786,14 +12786,21 @@ html, body {
   justify-content: center;
   align-items: center; }
 
+body a:link {
+  color: #ffffff; }
+
+body a:visited {
+  color: #ffffff; }
+
 body {
   font-size: 14px;
   /*Want to change background image?*/
   /*Upload a new one to the img folder.*/
   /*Make sure you name it 'minecraft.jpg'*/
-  background: linear-gradient(rgba(35, 20, 20, 0.55), rgba(35, 20, 20, 0.55)), url("../img/minecraft.jpg") no-repeat center center fixed;
+  background: url("../img/minecraft.jpg") no-repeat center center fixed;
   background-size: cover;
   font-family: Helvetica;
+  color: #ffffff;
   margin: 0;
   width: 100%; }
 
@@ -12859,6 +12866,12 @@ textarea {
   margin-bottom: 20px;
   display: block; }
 
+.navbar a:link {
+  color: #ffffff; }
+
+.navbar a:visited {
+  color: #ffffff; }
+
 .navbar-brand {
   font-size: 18px;
   float: left; }
@@ -12923,6 +12936,9 @@ textarea {
 
 .far {
   margin-right: 6px; }
+
+.lists {
+  list-style: decimal inside; }
 
 .btn-snapchat {
   background-color: #fffc00;

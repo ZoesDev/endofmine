@@ -18,16 +18,17 @@ html, body {
     justify-content: center;
     align-items: center;
 }
-
+body a:link { color:#ffffff; }
+body a:visited {color:#ffffff;}
 body {
     font-size: 14px;
     /*Want to change background image?*/
     /*Upload a new one to the img folder.*/
     /*Make sure you name it 'minecraft.jpg'*/
-    background: linear-gradient(rgba(35,20,20,0.55),rgba(35,20,20,0.55)),
-                url("../img/minecraft.jpg") no-repeat center center fixed;
+    background: url("../img/minecraft.jpg") no-repeat center center fixed;
     background-size: cover;
     font-family: Helvetica;
+    color:#ffffff;
     margin: 0;
     width: 100%;
 }
@@ -123,6 +124,8 @@ textarea {
   margin-bottom: 20px;
   display: block;
 }
+.navbar a:link { color:#ffffff; }
+.navbar a:visited {color:#ffffff;}
 
 .navbar-brand{
   font-size: 18px;
@@ -213,6 +216,8 @@ textarea {
 .far {
   margin-right: 6px;
 }
+.lists 
+    { list-style: decimal inside; }
 
 // Basic Snapchat Button CSS
 .btn-snapchat {
